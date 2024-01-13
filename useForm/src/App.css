@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(4, 4, 4);
+    font-family:Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    width: 50%;
+    font-size: 18px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+  
+  legend {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid grey;
+  }
+  
+  form input, button{
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(184, 182, 182);
+    outline: none;
+    font-size: 16px;
+  }
+  
+  form input[type="submit"], button{
+    background-color: rgb(4, 119, 4);
+    width: 15%;
+    align-self: center;
+    cursor: pointer;
+    color: white;
+    padding: 0.75rem;
+  }
+  
+  button {
+    background-color: red;
+  }
+  
+  .err {
+    color: red;
+    font-size: 0.9rem;
+  }
+  
+  form label {
+    font-weight: 800;
+  }
+  
+  .success {
+    background-color: rgb(47, 87, 217);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
